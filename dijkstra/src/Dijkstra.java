@@ -116,7 +116,7 @@ public class Dijkstra {
 		x.pathFind();
 		t2 = System.nanoTime();
 		sum += (t2-t1);
-		System.out.println("sum: " + sum /1_000 + "ms");
+		System.out.println("sum: " + sum /1_000_000 + "ms");
 		x.printPath(x.ending);
 	}
 }
